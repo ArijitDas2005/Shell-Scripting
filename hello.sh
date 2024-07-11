@@ -108,7 +108,6 @@
 
 # PART-7
 #! /usr/bin/bash
-# PART-7
 
 # age=25
 # # if [ "$age" -gt 18 ] && [ "$age" -lt 30 ] or,
