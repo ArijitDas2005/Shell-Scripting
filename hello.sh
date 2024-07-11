@@ -28,7 +28,7 @@
 # read -sp 'password : ' pass_var
 # echo
 # echo "username : $user_var"
-# echo "passeord : $pass_var"
+# echo "password : $pass_var"
 
 # echo "Enter name : "
 # read
