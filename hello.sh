@@ -1,5 +1,5 @@
-#! //usr/bin/bash
 # PART-1
+#! /usr/bin/bash
 # this is a comment
 # echo "Hello World"
 
@@ -15,8 +15,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-2
+#! /usr/bin/bash
 
 # echo 'Enter name: '
 # read name
@@ -40,8 +40,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-3
+#! /usr/bin/bash
 
 # echo $0 $1 $2 $3 '> echo $1 $2 $3'
 # args=("$@")
@@ -50,8 +50,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-4
+#! /usr/bin/bash
 
 # count=10
 # if [ $count -eq 9 ]
@@ -61,8 +61,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-5
+#! /usr/bin/bash
 
 # echo -e "Enter the name of the file : \c" #-e is used to enable the interpretation of thid back slash(\)
 # read file_name
@@ -85,8 +85,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-6
+#! /usr/bin/bash
 
 # echo -e "Enter the name of the file : \c"
 # read file_name
@@ -106,7 +106,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
+# PART-7
+#! /usr/bin/bash
 # PART-7
 
 # age=25
@@ -120,8 +121,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-8
+#! /usr/bin/bash
 
 # age=50
 # # if [ "$age" -gt 18 ] || [ "$age" -lt 30 ] or,
@@ -135,8 +136,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-9
+#! /usr/bin/bash
 
 # num1=20
 # num2=5
@@ -153,8 +154,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-10
+#! /usr/bin/bash
 
 # num1=20.5
 # num2=5
@@ -174,8 +175,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-11
+#! /usr/bin/bash
 
 # vehicle=$1
 
@@ -194,8 +195,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-12
+#! /usr/bin/bash
 
 # echo -e "Enter some character: \c"
 # read value
@@ -215,8 +216,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-13
+#! /usr/bin/bash
 
 # os=('ubuntu' 'windows' 'kali')
 # os[3]='mac'
@@ -234,8 +235,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-14
+#! /usr/bin/bash
 # while loops
 # n=1
 
@@ -250,8 +251,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-15
+#! /usr/bin/bash
 
 # n=1
 # while [ $n -le 10 ]
@@ -263,9 +264,8 @@
 # done
 
 --------------------------------------------------------------------
-
-#! //usr/bin/bash
 # PART-16
+#! /usr/bin/bash
 
 # cat hello.sh | while read p
 # do 
@@ -285,8 +285,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-17
+#! /usr/bin/bash
 # until loops
 # n=1
 
@@ -300,8 +300,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-18
+#! /usr/bin/bash
 # for loops
 
 # for i in 1 2 3 4 5 6 7 
@@ -314,8 +314,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-19
+#! /usr/bin/bash
 
 # for command in ls pwd date
 # do 
@@ -334,8 +334,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-20
+#! /usr/bin/bash
 
 # select name in Rama Krishna Hayagriva
 # do  
@@ -361,8 +361,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-21
+#! /usr/bin/bash
 
 # for (( i=1; i<=10; i++ ))
 # do 
@@ -384,8 +384,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-22
+#! /usr/bin/bash
 
 # function Hello(){
 #     echo "Hello"
@@ -409,8 +409,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-23
+#! /usr/bin/bash
 
 # function print(){
 #     local name=$1
@@ -423,8 +423,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-24
+#! /usr/bin/bash
 
 # usage(){
 #     echo "You need to provide an argument : "
@@ -447,8 +447,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-25
+#! /usr/bin/bash
 
 # var=31
 
@@ -480,8 +480,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-26
+#! /usr/bin/bash
 
 # trap "echo EXit command is detected" SIGINT
 # trap "echo EXit command is detected" SIGKILL
@@ -503,8 +503,8 @@
 
 --------------------------------------------------------------------
 
-#! //usr/bin/bash
 # PART-27
+#! /usr/bin/bash
 
 # set -x
 
@@ -520,4 +520,3 @@
 #    echo $COUNT
 # done
 # exit 0 
-
