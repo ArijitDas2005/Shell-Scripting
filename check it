@@ -1,7 +1,7 @@
 **********INTEGER COMPARISION**********
 -eq : is equal to - if [ "$a" -q "$b" ]
 -ne : is not equal to - if [ "$a" -ne "$b" ]
--gt : is greater than - if [ "$a" -get "$b" ]
+-gt : is greater than - if [ "$a" -gt "$b" ]
 -ge : is greater than or equal to - if [ "$a" -ge "$b" ]
 -lt : is less than - if [ "$a" -lt "$b" ]
 < : is less than - (("$a" < "$b"))
