@@ -450,18 +450,13 @@
 #! /usr/bin/bash
 
 # var=31
-
 # readonly var
 # var=50
-
 # echo "var => $var"
-
 # hello(){
 #     echo "Hello World"
 # }
-
 # readonly -f hello
-
 # hello(){
 #     echo "Hello World Again"
 # }
@@ -473,7 +468,6 @@
 # hello(){
 #     echo "Hello"
 # }
-
 # readonly -f hello
 # readonly -f
 
@@ -482,8 +476,8 @@
 # PART-26
 #! /usr/bin/bash
 
-# trap "echo EXit command is detected" SIGINT
-# trap "echo EXit command is detected" SIGKILL
+# trap "echo Exit command is detected" SIGINT
+# trap "echo Exit command is detected" SIGKILL
 # file=/home/linux/Desktop/test
 # trap "rm -f $file; exit" 0 2 15
 # trap "rm -f $file && echo file deleted; exit" 0 2 15
@@ -496,7 +490,7 @@
 # done
 # exit 0   
 
-# trap "echo EXit command is detected" 0
+# trap "echo Exit command is detected" 0
 # echo "Hello World"
 # exit 0
 
