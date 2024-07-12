@@ -304,7 +304,7 @@
 # for loops
 
 # for i in 1 2 3 4 5 6 7 
-# for i in {1..10}
+# for i in {1..7}
 # for i in {1..10..2} # {START..END..INCREMENT}
 # for (( i=0; i<5; i++ ))
 # do 
